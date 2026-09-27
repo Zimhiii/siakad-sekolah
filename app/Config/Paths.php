@@ -87,4 +87,18 @@ class Paths
      * value - the directory should not be publicly accessible.
      */
     public string $envDirectory = __DIR__ . '/../../';
+
+    public function __construct()
+    {
+        // When running on Vercel Serverless Functions, redirect writable to /tmp
+        if (getenv('VERCEL') || isset($_ENV['VERCEL'])) {
+            $this->writableDirectory = '/tmp/writable';
+            foreach (['cache', 'logs', 'session', 'debugbar', 'uploads'] as $dir) {
+                $sub = $this->writableDirectory . '/' . $dir;
+                if (!is_dir($sub)) {
+                    @mkdir($sub, 0777, true);
+                }
+            }
+        }
+    }
 }
