@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><?= esc($title ?? 'Login: Bantuan Lupa Password - SIAKAD') ?></title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts: Montserrat & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0-beta3/dist/css/adminlte.min.css">
+
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+    }
+    body, p, span, td, th, label, input, select, textarea, .nav-link, .dropdown-item,
+    .badge, .btn, .card-text, .small, small {
+      font-family: 'Montserrat', system-ui, sans-serif;
+    }
+
+    h1, h2, h3, .page-title, .content-header h1, .brand-text {
+      font-family: 'Poppins', 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+
+    h4, h5, h6, .card-title {
+      font-family: 'Montserrat', system-ui, sans-serif;
+      font-weight: 600;
+    }
+    .split-left {
+      background: #1E3A5F;
+      color: #fff;
+    }
+    .text-light-accessible {
+      color: rgba(255, 255, 255, 0.88) !important;
+    }
+    .text-secondary-accessible {
+      color: #495057 !important;
+    }
+    .login-form-container {
+      max-width: 420px;
+      width: 100%;
+    }
+    .form-control, .btn {
+      min-height: 44px;
+    }
+    a:focus-visible, button:focus-visible, input:focus-visible {
+      outline: 2px solid #1E3A5F !important;
+      outline-offset: 2px !important;
+    }
+  </style>
+</head>
+<body class="bg-body-tertiary modal-open">
+  <div class="container-fluid p-0 h-100">
+    <div class="row g-0 h-100">
+      
+      <!-- Kolom Kiri: Informasi Sekolah (55% desktop) -->
+      <div class="col-lg-7 d-none d-lg-flex flex-column justify-content-between p-5 split-left">
+        <div>
+          <div class="d-flex align-items-center gap-3">
+            <div>
+              <h4 class="mb-0 text-white">SIAKAD</h4>
+              <p class="text-light-accessible small mb-0"><?= esc($sekolah['nama_sekolah'] ?? 'SMA IT Fithrah Insani') ?></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-auto py-4">
+          <h1 class="display-6 mb-3">Sistem Informasi Akademik</h1>
+          <p class="text-light-accessible" style="max-width: 540px;">
+            Sistem pengelolaan akademik sekolah untuk data kurikulum, penilaian siswa, perwalian kelas, dan administrasi sekolah.
+          </p>
+        </div>
+
+        <div class="text-light-accessible small border-top border-white border-opacity-25 pt-3">
+          <span>&copy; <?= date('Y') ?> <?= esc($sekolah['nama_sekolah'] ?? 'SMA IT Fithrah Insani') ?></span>
+        </div>
+      </div>
+
+      <!-- Kolom Kanan: Form Login (45% desktop) -->
+      <div class="col-lg-5 d-flex flex-column justify-content-between p-4 p-md-5 bg-body">
+        
+        <!-- Header Mobile Only -->
+        <div class="d-lg-none d-flex align-items-center gap-2 mb-4">
+          <span class="fs-5 fw-bold">SIAKAD</span>
+        </div>
+
+        <div class="my-auto d-flex justify-content-center">
+          <div class="login-form-container">
+            
+            <div class="mb-4">
+              <h3 class="mb-1">Masuk ke Akun</h3>
+              <p class="text-secondary-accessible small">Masukkan username dan kata sandi akun Anda</p>
+            </div>
+
+            <!-- Login Form Background -->
+            <form action="<?= base_url('auth/login') ?>" method="post">
+              <?= csrf_field() ?>
+
+              <div class="mb-3">
+                <label for="username" class="form-label small fw-semibold text-secondary-accessible">Username / NIP / NISN</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Masukkan username atau NISN/NIP" readonly>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex justify-content-between align-items-center">
+                  <label for="password" class="form-label small fw-semibold text-secondary-accessible mb-0">Password</label>
+                  <span class="small text-primary fw-semibold text-decoration-underline">Lupa Password?</span>
+                </div>
+                <input type="password" class="form-control mt-1" id="password" name="password" placeholder="Masukkan kata sandi akun" readonly>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="rememberMe">
+                  <label class="form-check-label small text-secondary-accessible" for="rememberMe">
+                    Ingat saya di perangkat ini
+                  </label>
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-primary w-100 py-2 fw-semibold d-flex align-items-center justify-content-center" disabled>
+                Masuk ke SIAKAD
+              </button>
+            </form>
+
+          </div>
+        </div>
+
+        <div class="text-center text-secondary-accessible small pt-3">
+          Layanan Bantuan SIAKAD Sekolah: it-support@fithrahinsani.sch.id
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal Lupa Password (Tampil Terbuka Aktif untuk Figma Export) -->
+  <div class="modal show" id="modalLupaPassword" tabindex="-1" style="display: block;" aria-modal="true" aria-labelledby="modalLupaPasswordTitle" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content shadow-lg border-0">
+        <div class="modal-header border-bottom px-4 py-3 bg-body">
+          <div>
+            <h5 class="modal-title fw-bold mb-0" id="modalLupaPasswordTitle">Bantuan Lupa Kata Sandi</h5>
+            <small class="text-secondary-accessible">Prosedur Pemulihan Akun SIAKAD</small>
+          </div>
+          <a href="<?= base_url('figma-export/auth/login-default') ?>" class="btn-close" aria-label="Tutup dialog bantuan"></a>
+        </div>
+        <div class="modal-body p-4">
+          <p class="small text-secondary-accessible mb-3">
+            Untuk menjaga keamanan data akademik, nilai siswa, dan privasi akun sekolah, reset kata sandi tidak dilakukan otomatis melalui email luar, melainkan diverifikasi langsung oleh Admin Sistem atau Bagian Tata Usaha (TU).
+          </p>
+
+          <div class="card border bg-body-tertiary mb-3">
+            <div class="card-body p-3">
+              <h6 class="fw-semibold text-body mb-2 small">Prosedur Pengajuan Reset:</h6>
+              <ol class="small text-secondary-accessible ps-3 mb-0">
+                <li class="mb-1"><strong>Peserta Didik (Siswa):</strong> Hubungi Wali Kelas masing-masing atau datang langsung ke ruang Tata Usaha dengan menyebutkan NISN dan Nama Lengkap.</li>
+                <li class="mb-1"><strong>Guru &amp; Staf Pengajar:</strong> Lapor langsung ke Admin IT Sekolah atau Kepala Tata Usaha.</li>
+                <li>Admin akan memverifikasi dan memberikan kata sandi sementara untuk login kembali.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="bg-primary-subtle border border-primary-subtle rounded p-3 text-primary-emphasis small">
+            <div class="fw-bold mb-1"><i class="bi bi-headset me-1"></i> Kontak Layanan Bantuan IT:</div>
+            <div><i class="bi bi-geo-alt me-1"></i> Ruang Tata Usaha Gedung A, Lantai 1</div>
+            <div><i class="bi bi-clock me-1"></i> Jam Layanan: Senin sampai Jumat (07.30 - 15.30 WIB)</div>
+            <div><i class="bi bi-envelope me-1"></i> Email: <span class="font-monospace text-primary">it-support@fithrahinsani.sch.id</span></div>
+            <div><i class="bi bi-whatsapp me-1"></i> WhatsApp: <span class="font-monospace text-primary">+62 812-2334-4551</span></div>
+          </div>
+        </div>
+        <div class="modal-footer px-4 py-3 bg-body border-top justify-content-between">
+          <a href="<?= base_url('figma-export/auth/login-default') ?>" class="btn btn-secondary btn-sm px-3">
+            Kembali ke Form
+          </a>
+          <a href="https://wa.me/6281223344551" target="_blank" class="btn btn-success btn-sm px-3 d-inline-flex align-items-center gap-1">
+            <i class="bi bi-whatsapp"></i> Hubungi WhatsApp TU
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Static Modal Backdrop for Figma Export -->
+  <div class="modal-backdrop show"></div>
+
+  <script>
+    // Escape key listener to close modal and return to default form (R-32 Keyboard Accessibility)
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        window.location.href = '<?= base_url('figma-export/auth/login-default') ?>';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1341 @@
+{
+    "admin/arsip/index.php": {
+        "h1": "Modul Arsip & Penelusuran Histori",
+        "subtitle": "Pusat pencarian data historis alumni, kenaikan kelas, raport lampau, mutasi, dan persuratan",
+        "tables": [
+            [
+                "Nama Siswa / Alumni",
+                "NIS",
+                "Tahun Lulus",
+                "Kelas Terakhir",
+                "Status",
+                "Aksi"
+            ],
+            [
+                "Tahun Ajaran",
+                "Nama Siswa",
+                "Perpindahan Kelas",
+                "Keputusan",
+                "Catatan"
+            ],
+            [
+                "Tahun Ajaran & Semester",
+                "Nama Siswa",
+                "Kelas",
+                "Tanggal Finalisasi",
+                "Dokumen"
+            ],
+            [
+                "Nama Siswa",
+                "NIS",
+                "Jenis Mutasi",
+                "Tanggal",
+                "Asal / Sekolah Tujuan",
+                "Keterangan"
+            ],
+            [
+                "Nama Siswa",
+                "Jenis Dokumen",
+                "Nama File",
+                "Tanggal Upload",
+                "Aksi"
+            ],
+            [
+                "Tahun Ajaran",
+                "Guru Pengajar",
+                "Mata Pelajaran",
+                "Kelas yang Diajar",
+                "Semester"
+            ],
+            [
+                "Jenis",
+                "Nomor Surat",
+                "Tanggal",
+                "Pengirim / Tujuan",
+                "Perihal",
+                "Status"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 13659
+    },
+    "admin/audit/index.php": {
+        "h1": "Pusat Log Audit &amp; Jejak Rekam Sistem",
+        "subtitle": "Dokumentasi audit trail otomatis perubahan data nilai pasca buka kunci dan riwayat transaksi sistem",
+        "tables": [
+            [
+                "No",
+                "Siswa / NIS",
+                "Kelas &amp; Mapel",
+                "Komponen",
+                "Nilai Semula",
+                "Nilai Revisi",
+                "Diubah Oleh",
+                "Alasan Perubahan",
+                "Persetujuan Pimpinan",
+                "Waktu Kejadian"
+            ],
+            [
+                "No",
+                "Kategori",
+                "Aktivitas",
+                "Pelaku / Akun",
+                "Detail &amp; Dampak",
+                "Status",
+                "Waktu"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 7326
+    },
+    "admin/dashboard.php": {
+        "h1": "Dashboard Administrator",
+        "subtitle": "Ringkasan statistik akademik dan aktivitas sistem sekolah",
+        "tables": [
+            [
+                "Tahun Ajaran",
+                "Periode",
+                "Status"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 7639
+    },
+    "admin/kelas/detail.php": {
+        "h1": "Rombel:",
+        "subtitle": "Wali Kelas Pengampu:",
+        "tables": [
+            [
+                "No",
+                "NIS",
+                "NISN",
+                "Nama Lengkap Siswa",
+                "Jenis Kelamin",
+                "Status",
+                "Aksi"
+            ],
+            [
+                "NIS",
+                "Nama Siswa",
+                "Jenis Kelamin",
+                "Asal Sekolah"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahSiswaKelas",
+            "modalKeluarkanSiswa"
+        ],
+        "size": 8506
+    },
+    "admin/kelas/form_buka_kelas.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Tidak ditemukan subjudul eksplisit",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 2996
+    },
+    "admin/kelas/index.php": {
+        "h1": "Kelola Kelas (Rombel)",
+        "subtitle": "Daftar rombongan belajar aktif, daya tampung, dan penetapan wali kelas",
+        "tables": [
+            [
+                "Nama Kelas",
+                "Tingkatan",
+                "Jurusan",
+                "Wali Kelas Pengampu",
+                "Keterisian Siswa",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 3750
+    },
+    "admin/master/ekskul.php": {
+        "h1": "Master Ekstrakurikuler",
+        "subtitle": "Daftar kegiatan ekstrakurikuler resmi di sekolah",
+        "tables": [
+            [
+                "No",
+                "Nama Kegiatan Ekstrakurikuler",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahEkskul",
+            "modalEditEkskul",
+            "modalHapusEkskul"
+        ],
+        "size": 6468
+    },
+    "admin/master/jurusan.php": {
+        "h1": "Jurusan / Konsentrasi Keahlian",
+        "subtitle": "Master peminatan program keahlian peserta didik",
+        "tables": [
+            [
+                "Kode Jurusan",
+                "Nama Jurusan",
+                "Jumlah Rombel Aktif",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahJurusan",
+            "modalEditJurusan",
+            "modalHapusJurusan"
+        ],
+        "size": 6565
+    },
+    "admin/master/komponen_nilai.php": {
+        "h1": "Komponen Nilai & Bobot",
+        "subtitle": "Skema persentase pembobotan nilai akhir raport per aspek penilaian",
+        "tables": [
+            [
+                "Urutan",
+                "Nama Komponen Nilai",
+                "Bobot Persentase (%)",
+                "Aksi",
+                "Total Bobot Komponen :",
+                "100% (Valid) % (Harus tepat 100%)"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahKomponen",
+            "modalEditKomponen",
+            "modalHapusKomponen"
+        ],
+        "size": 9518
+    },
+    "admin/master/kriteria_penilaian.php": {
+        "h1": "KKM & Interval Predikat",
+        "subtitle": "Konversi nilai angka ke predikat huruf (A, B, C, D) berdasarkan Kriteria Ketuntasan Minimal",
+        "tables": [
+            [
+                "Rentang Nilai",
+                "Predikat",
+                "Deskripsi Kategori"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahKriteria",
+            "modalEditKriteria",
+            "modalHapusKriteria",
+            "modalTambahInterval"
+        ],
+        "size": 11088
+    },
+    "admin/master/mapel.php": {
+        "h1": "Mata Pelajaran & Kelompok Mapel",
+        "subtitle": "Struktur pengelompokan kurikulum (Kelompok A/B/C/D, Muatan Lokal) dan daftar mapel",
+        "tables": [
+            [
+                "Kode Mapel",
+                "Nama Mata Pelajaran",
+                "Berlaku Untuk",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahKelompok",
+            "modalTambahMapel",
+            "modalEditMapel",
+            "modalHapusMapel"
+        ],
+        "size": 12766
+    },
+    "admin/master/prestasi.php": {
+        "h1": "Master Jenis Prestasi",
+        "subtitle": "Kategori capaian kejuaraan atau penghargaan siswa",
+        "tables": [
+            [
+                "No",
+                "Nama Kategori Prestasi",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahPrestasi",
+            "modalEditPrestasi",
+            "modalHapusPrestasi"
+        ],
+        "size": 6494
+    },
+    "admin/master/sikap.php": {
+        "h1": "Master Penilaian Non-Akademik",
+        "subtitle": "Master jenis penilaian sikap spiritual & sosial, kegiatan ekstrakurikuler, dan prestasi siswa",
+        "tables": [
+            [
+                "Urutan",
+                "Nama Aspek Sikap / Karakter",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahSikap",
+            "modalEditSikap",
+            "modalHapusSikap"
+        ],
+        "size": 7102
+    },
+    "admin/master/tingkatan.php": {
+        "h1": "Tingkatan Kelas",
+        "subtitle": "Master urutan level kelas (Fase pendidikan)",
+        "tables": [
+            [
+                "Urutan",
+                "Nama Tingkatan",
+                "Jumlah Rombel Aktif",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahTingkatan",
+            "modalEditTingkatan",
+            "modalHapusTingkatan"
+        ],
+        "size": 6651
+    },
+    "admin/pengguna/guru_form.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Tidak ditemukan subjudul eksplisit",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 3131
+    },
+    "admin/pengguna/guru_index.php": {
+        "h1": "Data Guru & Tenaga Pendidik",
+        "subtitle": "Manajemen biodata guru, akun login, dan status keaktifan mengajar",
+        "tables": [
+            [
+                "No",
+                "Nama Lengkap Guru",
+                "NIP",
+                "No. Handphone",
+                "Wali Kelas",
+                "Status Akun",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalNonaktifkanGuru"
+        ],
+        "size": 5401
+    },
+    "admin/pengguna/ortu_index.php": {
+        "h1": "Data Orang Tua & Wali Siswa",
+        "subtitle": "Daftar kontak, domisili, dan pekerjaan orang tua/wali siswa",
+        "tables": [
+            [
+                "No",
+                "Nama Orang Tua / Wali",
+                "Hubungan",
+                "Nama Siswa (Anak)",
+                "Kelas Siswa",
+                "No. Handphone",
+                "Pekerjaan"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 2580
+    },
+    "admin/pengguna/siswa_detail.php": {
+        "h1": "",
+        "subtitle": "NIS: &bull; NISN: &bull; Rombel:",
+        "tables": [
+            [
+                "Tahun Ajaran",
+                "Semester",
+                "Kelas / Rombel",
+                "No. Absen",
+                "Rata-rata Rapor",
+                "Ranking",
+                "Status Siswa"
+            ],
+            [
+                "Mata Pelajaran",
+                "KKM",
+                "Nilai Pengetahuan",
+                "Predikat",
+                "Nilai Keterampilan",
+                "Predikat"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahOrtu",
+            "modalEditOrtu",
+            "modalUploadDokumen",
+            "modalPreviewDokumen"
+        ],
+        "size": 23334
+    },
+    "admin/pengguna/siswa_form.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Tidak ditemukan subjudul eksplisit",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 6842
+    },
+    "admin/pengguna/siswa_index.php": {
+        "h1": "Data Induk Siswa",
+        "subtitle": "Database biodata siswa, NISN nasional, status rombel, dan mutasi",
+        "tables": [
+            [
+                "No",
+                "Nama Lengkap Siswa",
+                "NIS",
+                "NISN",
+                "Kelas / Rombel",
+                "Status",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalNonaktifkanSiswa",
+            "modalMutasiSiswa"
+        ],
+        "size": 9342
+    },
+    "admin/pengguna/staff_tu.php": {
+        "h1": "Akun Staff Tata Usaha (TU)",
+        "subtitle": "Manajemen akun pengelola persuratan, kearsipan, dan administrasi sekolah",
+        "tables": [
+            [
+                "No",
+                "Nama Staff TU",
+                "NIP",
+                "Jabatan Administrasi",
+                "Username",
+                "Status Akun",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahStaff",
+            "modalEditStaff",
+            "modalNonaktifkanStaff"
+        ],
+        "size": 9271
+    },
+    "admin/pengguna/transkrip_cetak.php": {
+        "h1": "Transkrip Nilai Kumulatif 6 Semester",
+        "subtitle": "NPSN: 20224156 \u2022 NSS: 301020801001 \u2022 Terakreditasi \"A\" (Amat Baik) Jl. Haji Gofur No. 10, Gadobangkong, Kec. Ngamprah, Kab. Bandung Barat, Jawa Ba",
+        "tables": [
+            [],
+            [],
+            [
+                "Tingkat",
+                "Semester & Tahun Ajaran",
+                "Kelas Rombel",
+                "Rata-rata Nilai",
+                "Predikat Semester",
+                "Peringkat Kelas",
+                "Status Kenaikan"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 7503
+    },
+    "admin/penugasan/index.php": {
+        "h1": "Penugasan Guru Mengajar",
+        "subtitle": "Matriks jadwal guru pengajar per mata pelajaran, rombel, semester, dan standar KKM",
+        "tables": [
+            [
+                "No",
+                "Guru Pengajar",
+                "Mata Pelajaran",
+                "Rombel (Kelas)",
+                "Semester",
+                "KKM",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahPenugasan",
+            "modalHapusPenugasan"
+        ],
+        "size": 8186
+    },
+    "admin/raport/buka_kunci.php": {
+        "h1": "Otorisasi Buka Kunci Raport Final",
+        "subtitle": "Kelola permohonan revisi nilai dari guru/wali kelas dan otorisasi langsung raport yang berstatus Final",
+        "tables": [
+            [
+                "No",
+                "Nama Siswa & NIS",
+                "Rombel & Semester",
+                "Alasan Pengajuan Revisi",
+                "Diminta Oleh & Waktu",
+                "Status",
+                "Keputusan Aksi"
+            ],
+            [
+                "No",
+                "Nama Siswa",
+                "NIS",
+                "Rombel",
+                "Semester",
+                "Waktu Finalisasi",
+                "Status",
+                "Aksi"
+            ],
+            [
+                "No",
+                "Siswa / NIS",
+                "Mata Pelajaran & Komponen",
+                "Nilai Sebelum \u2192 Sesudah",
+                "Alasan Revisi & Pengubah",
+                "Otorisasi Approval",
+                "Waktu Perubahan"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalApproveUnlock<?= $req[",
+            "modalRejectUnlock<?= $req[",
+            "modalBukaKunciDirect<?= $lr["
+        ],
+        "size": 20524
+    },
+    "admin/sekolah.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "NPSN: &bull; NSS:",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 5471
+    },
+    "admin/surat/format_nomor.php": {
+        "h1": "Format Penomoran Surat Otomatis",
+        "subtitle": "Template pola nomor agenda surat masuk dan nomor surat keluar",
+        "tables": [
+            [
+                "Jenis Surat",
+                "Pola Format Pattern",
+                "Contoh Hasil Tergenerate",
+                "No. Urut Terakhir",
+                "Reset Tahunan",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahFormatSurat",
+            "modalEditFormatSurat",
+            "modalHapusFormatSurat"
+        ],
+        "size": 10834
+    },
+    "admin/surat/kategori.php": {
+        "h1": "Kategori Persuratan",
+        "subtitle": "Klasifikasi surat masuk dan surat keluar sekolah",
+        "tables": [
+            [
+                "No",
+                "Nama Kategori Surat",
+                "Berlaku Untuk",
+                "Jumlah Arsip",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahKategoriSurat",
+            "modalEditKategoriSurat",
+            "modalHapusKategoriSurat"
+        ],
+        "size": 7501
+    },
+    "admin/tahun_ajaran/aktivasi_semester_genap.php": {
+        "h1": "Aktivasi Semester Genap",
+        "subtitle": "Tahun Ajaran",
+        "tables": [
+            [
+                "Entitas / Nama",
+                "Status Perubahan",
+                "Catatan & Tindakan Sistem"
+            ],
+            [
+                "No",
+                "Rombongan Belajar",
+                "Wali Kelas",
+                "Jumlah Siswa",
+                "Status Raport",
+                "Tanggal Finalisasi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalDetailRaportGanjil"
+        ],
+        "size": 11101
+    },
+    "admin/tahun_ajaran/index.php": {
+        "h1": "Tahun Ajaran & Semester",
+        "subtitle": "Kelola siklus akademik tahunan dan status keaktifan semester",
+        "tables": [
+            [
+                "No",
+                "Nama Tahun Ajaran",
+                "Tanggal Mulai",
+                "Tanggal Selesai",
+                "Semester Terdaftar",
+                "Status",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalDetailTA<?= $ta["
+        ],
+        "size": 7719
+    },
+    "admin/tahun_ajaran/wizard_step_1.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Gunakan format 4 digit tahun / 4 digit tahun (mis. 2026/2027)",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 6341
+    },
+    "admin/tahun_ajaran/wizard_step_2.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Sistem akan men-generate secara otomatis kelas-kelas baru untuk Tahun Ajaran 2026/2027 sesuai konfigurasi di bawah:",
+        "tables": [
+            [
+                "Tingkatan Sekolah",
+                "Contoh Nama Rombel",
+                "Jumlah Kelas Paralel",
+                "Kapasitas Maksimal / Kelas",
+                "Subtotal Kapasitas",
+                "Total Keseluruhan",
+                "12 Rombel Baru",
+                "-",
+                "384 Kursi Siswa"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 5524
+    },
+    "admin/tahun_ajaran/wizard_step_3.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Pilih guru yang akan ditugaskan sebagai Wali Kelas. Guru yang sudah ditugaskan pada kelas lain tidak dapat dipilih ganda:",
+        "tables": [
+            [
+                "No",
+                "Nama Rombel",
+                "Tingkatan & Jurusan",
+                "Pilih Wali Kelas (Guru Pengampu)",
+                "Status"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 3759
+    },
+    "admin/tahun_ajaran/wizard_step_4.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Single Source of Truth: Data bersumber langsung dari hasil Sidang Pleno Wali Kelas &amp; Kepala Sekolah.",
+        "tables": [
+            [
+                "No",
+                "Nama Siswa",
+                "NIS / NISN",
+                "Kelas Asal",
+                "Keputusan Pleno",
+                "Penempatan Rombel Baru",
+                "Tgl Sidang Pleno",
+                "Catatan Wali Kelas"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 7659
+    },
+    "admin/tahun_ajaran/wizard_step_5.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Tidak ditemukan subjudul eksplisit",
+        "tables": [
+            [
+                "Guru Pengajar",
+                "Mata Pelajaran",
+                "Kelas",
+                "Semester",
+                "KKM",
+                "Hapus"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 7292
+    },
+    "admin/tahun_ajaran/wizard_step_6.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Prasyarat: seluruh wali kelas TA berjalan (2025/2026) sudah submit keputusan kenaikan & kelulusan",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 14329
+    },
+    "admin/ujian_sekolah/index.php": {
+        "h1": "Modul Ujian Sekolah & Formula Kelulusan (Kelas 12)",
+        "subtitle": "Konfigurasi bobot kelulusan, manajemen nilai ujian sekolah, dan kalkulasi nilai akhir kelulusan peserta didik kelas akhir",
+        "tables": [
+            [
+                "No",
+                "Kode",
+                "Mata Pelajaran Ujian",
+                "Standar KKM",
+                "Bentuk Ujian"
+            ],
+            [
+                "No",
+                "Nama Siswa & NIS",
+                "Kelas",
+                "Rata Rapor Smt 1-5 (60%)",
+                "Rata Nilai US (40%)",
+                "Nilai Akhir Kelulusan",
+                "Status Kelulusan",
+                "Nomor Ijazah Nasional",
+                "Aksi",
+                "No",
+                "Mata Pelajaran",
+                "Standar KKM",
+                "Nilai Ujian Sekolah",
+                "Status Ketuntasan"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalDetailUS<?= $sk["
+        ],
+        "size": 14107
+    },
+    "auth/login.php": {
+        "h1": "SIAKAD",
+        "subtitle": "Masukkan username dan kata sandi akun Anda",
+        "tables": [],
+        "forms": [],
+        "modals": [
+            "modalLupaPassword"
+        ],
+        "size": 10046
+    },
+    "guru/analitik/index.php": {
+        "h1": "Analitik Nilai:",
+        "subtitle": "Distribusi statistik capaian kompetensi dan evaluasi ketuntasan KKM",
+        "tables": [
+            [
+                "NIS",
+                "Nama Lengkap Siswa",
+                "Nilai Akhir",
+                "Selisih KKM",
+                "Rekomendasi Tindak Lanjut"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 4927
+    },
+    "guru/dashboard.php": {
+        "h1": "",
+        "subtitle": "Selamat bertugas,",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 6050
+    },
+    "guru/kenaikan/index.php": {
+        "h1": "Keputusan Kenaikan Kelas &amp; Sidang Pleno",
+        "subtitle": "Alur dua tahap: Usulan Rekomendasi Wali Kelas &rarr; Pengesahan Resmi Sidang Pleno Dewan Guru &amp; Kepala Sekolah.",
+        "tables": [
+            [
+                "No",
+                "Nama Siswa &amp; NIS",
+                "Indikator Otomatis Kelayakan",
+                "Rata-Rata",
+                "Rekomendasi Usulan",
+                "Kelas Tujuan",
+                "Status Pleno",
+                "Catatan Wali Kelas / Dewan Guru"
+            ],
+            [
+                "No",
+                "Nama Siswa &amp; NIS",
+                "Kelas Asal",
+                "Rata-Rata Nilai",
+                "Keputusan Kelulusan",
+                "Nomor Ijazah",
+                "Status Pleno",
+                "Catatan / Keterangan"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 17880
+    },
+    "guru/leger/index.php": {
+        "h1": "MATRIKS NILAI KELAS (BUKU KUMPULAN NILAI / LEGER)",
+        "subtitle": "Buku Kumpulan Nilai Lintas Mata Pelajaran (Leger) &bull; Wali Kelas:",
+        "tables": [
+            [
+                "No",
+                "Nama Lengkap Siswa NIS",
+                "\" class=\"table-primary border-bottom-0\"> Daftar Mata Pelajaran (Skala 0 - 100)",
+                "JumlahTotal",
+                "Rata2Nilai",
+                "PeringkatRanking",
+                "Absensi",
+                "Status",
+                "\">",
+                "S",
+                "I",
+                "A"
+            ],
+            []
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 14760
+    },
+    "guru/mapel.php": {
+        "h1": "Mata Pelajaran Saya",
+        "subtitle": "Daftar kelas pengajaran aktif pada Semester Ganjil TA 2025/2026",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 2086
+    },
+    "guru/nilai/input.php": {
+        "h1": "Input Nilai:",
+        "subtitle": "Kelas: KKM: &bull; Semester Ganjil 2025/2026",
+        "tables": [
+            [
+                "No",
+                "Nama Lengkap Siswa",
+                "Bobot: % Auto Rata-rata UH Auto Rata-rata Tugas",
+                "Nilai Akhir (Kalkulasi)",
+                "Deskripsi Capaian (CP) Auto-Isi Semua Wajib diisi lengkap sebelum pengajuan rapor"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalImportExcel"
+        ],
+        "size": 19632
+    },
+    "guru/perwalian/index.php": {
+        "h1": "Kelas Perwalian: XI-MIPA-1",
+        "subtitle": "Pengisian penilaian Sikap Spiritual & Sosial, Kegiatan Ekstrakurikuler, Catatan Prestasi, dan Rekapitulasi Kehadiran",
+        "tables": [
+            [
+                "No",
+                "Nama Siswa",
+                "Sikap Spiritual (Predikat)",
+                "Sikap Sosial (Predikat)",
+                "Catatan Deskripsi Sikap"
+            ],
+            [
+                "No",
+                "Nama Siswa",
+                "Ekstrakurikuler Wajib",
+                "Ekstrakurikuler Pilihan",
+                "Keterangan / Capaian"
+            ],
+            [
+                "No",
+                "Nama Siswa",
+                "Sakit (S)(Hari)",
+                "Izin (I)(Hari)",
+                "Alpa (A)(Hari)",
+                "Total Absen(S + I + A)",
+                "Persentase Hadir(Est. 100 Hari KBM)",
+                "Catatan Kedisiplinan / Kehadiran"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 18607
+    },
+    "guru/presensi/cetak.php": {
+        "h1": "",
+        "subtitle": "NIP. 19740512 199903 1 002",
+        "tables": [
+            [],
+            [
+                "NO",
+                "NIS",
+                "NAMA LENGKAP SISWA",
+                "\">PERTEMUAN TATAP MUKA",
+                "REKAP",
+                "%",
+                "STATUS",
+                "P",
+                "H",
+                "S",
+                "I",
+                "A",
+                "D"
+            ],
+            [
+                "PER",
+                "TANGGAL",
+                "JAM PELAJARAN",
+                "MATERI POKOK / CAPAIAN PEMBELAJARAN",
+                "METODE KBM",
+                "REFLEKSI / CATATAN KEGIATAN GURU"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 9997
+    },
+    "guru/presensi/index.php": {
+        "h1": "Presensi Harian & Jurnal Mengajar (KBM)",
+        "subtitle": "Mata Pelajaran: &bull; Pengampu:",
+        "tables": [
+            [
+                "PERTEMUAN",
+                "TANGGAL & WAKTU",
+                "MATERI POKOK & METODE",
+                "RINGKASAN KEHADIRAN",
+                "REFLEKSI / JURNAL KBM",
+                "AKSI"
+            ],
+            [
+                "NAMA SISWA",
+                "NIS",
+                "\" class=\"bg-body-secondary\">PERTEMUAN TATAP MUKA",
+                "REKAPITULASI",
+                "PERSEN (%)",
+                "STATUS",
+                "\"> P",
+                "H",
+                "S",
+                "I",
+                "A",
+                "D"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahPertemuan",
+            "modalTambahPertemuanLabel"
+        ],
+        "size": 23148
+    },
+    "guru/presensi/input.php": {
+        "h1": "Input Presensi & Jurnal KBM: Pertemuan Ke-",
+        "subtitle": "Catat kehadiran siswa secara akurat dan isikan rangkuman materi KBM untuk buku agenda mengajar resmi.",
+        "tables": [
+            [
+                "NO",
+                "SISWA",
+                "STATUS KEHADIRAN",
+                "CATATAN / KETERANGAN"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 10813
+    },
+    "guru/raport/buka_kunci.php": {
+        "h1": "Status Raport Final Terkunci",
+        "subtitle": "Nama Siswa:",
+        "tables": [],
+        "forms": [],
+        "modals": [
+            "modalBukaKunciGuru"
+        ],
+        "size": 7506
+    },
+    "guru/raport/generate.php": {
+        "h1": "Generate Raport Digital Semester Ganjil",
+        "subtitle": "Kelas Perwalian: &bull; Total Peserta Didik",
+        "tables": [
+            [
+                "No",
+                "Mata Pelajaran",
+                "Guru Pengampu",
+                "Status Nilai",
+                "Keterangan"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 8180
+    },
+    "guru/raport/tinjau.php": {
+        "h1": "",
+        "subtitle": "Silakan perbaiki data nilai atau narasi capaian, kemudian kunci dan ajukan kembali.",
+        "tables": [
+            [],
+            [
+                "Aspek Penilaian",
+                "Predikat",
+                "Deskripsi Kemajuan Siswa"
+            ],
+            [
+                "NO",
+                "Mata Pelajaran",
+                "KKM",
+                "Nilai",
+                "Predikat",
+                "Deskripsi Capaian"
+            ],
+            [
+                "NO",
+                "Mata Pelajaran",
+                "KKM",
+                "Nilai",
+                "Predikat",
+                "Deskripsi Capaian"
+            ],
+            [
+                "Kegiatan",
+                "Nilai",
+                "Keterangan"
+            ],
+            [
+                "Jenis Prestasi",
+                "Keterangan Capaian"
+            ],
+            [],
+            []
+        ],
+        "forms": [],
+        "modals": [
+            "modalFinalisasiRaport",
+            "modalPengesahanKepsek",
+            "modalTolakKepsek"
+        ],
+        "size": 30055
+    },
+    "guru/tugas/index.php": {
+        "h1": "Tugas Harian & Ulangan Harian",
+        "subtitle": "Kelola daftar tugas dan kuis untuk: ()",
+        "tables": [
+            [
+                "No",
+                "Judul Tugas / Ulangan",
+                "Tanggal Pelaksanaan",
+                "Komponen Nilai Terkait",
+                "Kelengkapan Penilaian",
+                "Aksi"
+            ],
+            [
+                "No",
+                "Nama Siswa",
+                "Tugas Harian & Kuis",
+                "Ulangan Harian (UH)",
+                "Rata-rata Tugas(Masuk Nilai)",
+                "Rata-rata UH(Masuk Nilai)",
+                "Aksi",
+                "Tugas 1",
+                "Tugas 2",
+                "Tugas 3",
+                "UH 1",
+                "UH 2"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalBuatTugas",
+            "modalHapusTugas"
+        ],
+        "size": 13919
+    },
+    "guru/tugas/nilai.php": {
+        "h1": "Input Nilai:",
+        "subtitle": "&bull; &bull; Komponen: &bull; KKM: &bull; Tanggal:",
+        "tables": [
+            [
+                "No",
+                "Nama Siswa",
+                "Nilai (0-100)",
+                "Status KKM",
+                "Catatan Koreksi / Feedback Guru"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 11806
+    },
+    "siswa/beranda.php": {
+        "h1": "Assalamu'alaikum, !",
+        "subtitle": "NIS: &bull; NISN: &bull; Rombel:",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 4437
+    },
+    "siswa/nilai.php": {
+        "h1": "Rincian Capaian Nilai Akademik",
+        "subtitle": "Rincian perolehan nilai mata pelajaran dan predikat ketuntasan KKM",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 5419
+    },
+    "siswa/profil.php": {
+        "h1": "",
+        "subtitle": "NIS: &bull; NISN: &bull; Rombel:",
+        "tables": [
+            [
+                "Tahun Ajaran",
+                "Semester",
+                "Kelas",
+                "No. Absen",
+                "Rata-rata",
+                "Peringkat",
+                "Status"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 6234
+    },
+    "siswa/raport_list.php": {
+        "h1": "Riwayat Raport Digital",
+        "subtitle": "Daftar buku raport digital yang telah diterbitkan per semester",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 2507
+    },
+    "siswa/raport_preview.php": {
+        "h1": "Pratinjau Raport Digital Siswa",
+        "subtitle": "Tidak ditemukan subjudul eksplisit",
+        "tables": [
+            [],
+            [
+                "Aspek Penilaian",
+                "Predikat",
+                "Deskripsi Kemajuan Siswa"
+            ],
+            [
+                "NO",
+                "Mata Pelajaran",
+                "KKM",
+                "Nilai",
+                "Predikat",
+                "Deskripsi Capaian"
+            ],
+            [
+                "NO",
+                "Mata Pelajaran",
+                "KKM",
+                "Nilai",
+                "Predikat",
+                "Deskripsi Capaian"
+            ],
+            [
+                "Kegiatan",
+                "Nilai",
+                "Keterangan"
+            ],
+            [
+                "Jenis Prestasi",
+                "Keterangan Capaian"
+            ],
+            [],
+            []
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 17068
+    },
+    "siswa/status.php": {
+        "h1": "Status Akademik Siswa",
+        "subtitle": "Informasi penetapan kenaikan kelas atau kelulusan akhir jenjang",
+        "tables": [],
+        "forms": [],
+        "modals": [
+            "modalUnduhSKL"
+        ],
+        "size": 5760
+    },
+    "siswa/transkrip.php": {
+        "h1": "Transkrip Nilai Kumulatif 6 Semester",
+        "subtitle": "Rekapitulasi resmi capaian pembelajaran seluruh semester untuk keperluan seleksi PTN (SNBP/SNBT) atau kedinasan.",
+        "tables": [
+            [],
+            [],
+            [
+                "Tingkat",
+                "Semester &amp; Tahun Ajaran",
+                "Kelas Rombel",
+                "Rata-rata Nilai",
+                "Predikat Semester",
+                "Peringkat Kelas",
+                "Status Kenaikan"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 9378
+    },
+    "tu/arsip/index.php": {
+        "h1": "Arsip Persuratan Sekolah",
+        "subtitle": "Pencarian dan penelusuran arsip surat masuk dan surat keluar",
+        "tables": [
+            [
+                "Nomor Agenda",
+                "Nomor Surat",
+                "Tanggal Terima",
+                "Pengirim",
+                "Perihal",
+                "Status",
+                "Aksi"
+            ],
+            [
+                "Nomor Surat",
+                "Tanggal Surat",
+                "Tujuan Surat",
+                "Perihal",
+                "Status",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 4879
+    },
+    "tu/buku_agenda.php": {
+        "h1": "Cetak Buku Agenda Surat",
+        "subtitle": "Buku agenda rekapitulasi surat masuk dan keluar untuk pengesahan pimpinan",
+        "tables": [
+            [
+                "No",
+                "Jenis",
+                "No. Agenda",
+                "Nomor Surat",
+                "Tanggal",
+                "Pengirim / Tujuan",
+                "Perihal / Ringkasan Isi",
+                "Status"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 4336
+    },
+    "tu/dashboard.php": {
+        "h1": "Dashboard Tata Usaha",
+        "subtitle": "Kelola persuratan, arsip digital, dan buku agenda sekolah",
+        "tables": [
+            [
+                "Nomor Agenda",
+                "Pengirim Asal",
+                "Penerima Disposisi",
+                "Batas Waktu",
+                "Status Tindak Lanjut",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 3807
+    },
+    "tu/surat_keluar/detail.php": {
+        "h1": "",
+        "subtitle": "Tidak ditemukan subjudul eksplisit",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 10418
+    },
+    "tu/surat_keluar/form.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Nomor surat yang akan digenerate:",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 5167
+    },
+    "tu/surat_keluar/index.php": {
+        "h1": "Daftar Surat Keluar",
+        "subtitle": "Pengelolaan surat dinas keluar, penomoran berurutan anti-bolong, pengajuan TTD pimpinan, dan relasi balasan surat masuk.",
+        "tables": [
+            [
+                "Nomor Surat Resmi / Draft",
+                "Tanggal",
+                "Tujuan Surat",
+                "Perihal &amp; Relasi",
+                "Sifat",
+                "Status Alur",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 7918
+    },
+    "tu/surat_masuk/detail.php": {
+        "h1": "Agenda:",
+        "subtitle": "Nomor Surat Asal:",
+        "tables": [
+            [
+                "Ditujukan Kepada",
+                "Instruksi / Arahan",
+                "Batas Waktu",
+                "Status"
+            ]
+        ],
+        "forms": [],
+        "modals": [
+            "modalTambahDisposisi",
+            "modalPratinjauSurat"
+        ],
+        "size": 9307
+    },
+    "tu/surat_masuk/form.php": {
+        "h1": "Tidak ditemukan H1",
+        "subtitle": "Tidak ditemukan subjudul eksplisit",
+        "tables": [],
+        "forms": [],
+        "modals": [],
+        "size": 4527
+    },
+    "tu/surat_masuk/index.php": {
+        "h1": "Daftar Surat Masuk",
+        "subtitle": "Pencatatan surat masuk kedinasan, permohonan, dan disposisi tindak lanjut",
+        "tables": [
+            [
+                "Nomor Agenda",
+                "Nomor Surat Asal",
+                "Tanggal Diterima",
+                "Instansi / Pengirim",
+                "Perihal",
+                "Kategori",
+                "Status",
+                "Aksi"
+            ]
+        ],
+        "forms": [],
+        "modals": [],
+        "size": 3979
+    }
+}

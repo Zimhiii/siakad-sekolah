@@ -1,0 +1,1075 @@
+{
+    "admin\/dashboard.php": {
+        "headings": [
+            {
+                "line": 8,
+                "text": "Dashboard Administrator"
+            },
+            {
+                "line": 36,
+                "text": ""
+            },
+            {
+                "line": 51,
+                "text": ""
+            },
+            {
+                "line": 66,
+                "text": ""
+            },
+            {
+                "line": 81,
+                "text": "2025\/2026"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 231
+    },
+    "admin\/sekolah.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 118
+    },
+    "admin\/tahun_ajaran\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Tahun Ajaran & Semester"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 109,
+                "id": "modalDetailTA<?= $ta["
+            }
+        ],
+        "total_lines": 159
+    },
+    "admin\/tahun_ajaran\/wizard_step_1.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 136
+    },
+    "admin\/tahun_ajaran\/wizard_step_2.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 141
+    },
+    "admin\/tahun_ajaran\/wizard_step_3.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 103
+    },
+    "admin\/tahun_ajaran\/wizard_step_4.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 177
+    },
+    "admin\/tahun_ajaran\/wizard_step_5.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 195
+    },
+    "admin\/tahun_ajaran\/wizard_step_6.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 279
+    },
+    "admin\/tahun_ajaran\/aktivasi_semester_genap.php": {
+        "headings": [
+            {
+                "line": 10,
+                "text": "Aktivasi Semester Genap"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 180,
+                "id": "modalDetailRaportGanjil"
+            }
+        ],
+        "total_lines": 228
+    },
+    "admin\/master\/tingkatan.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Tingkatan Kelas"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 52,
+                "id": "modalTambahTingkatan"
+            },
+            {
+                "line": 84,
+                "id": "modalEditTingkatan"
+            },
+            {
+                "line": 116,
+                "id": "modalHapusTingkatan"
+            }
+        ],
+        "total_lines": 153
+    },
+    "admin\/master\/jurusan.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Jurusan \/ Konsentrasi Keahlian"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 50,
+                "id": "modalTambahJurusan"
+            },
+            {
+                "line": 82,
+                "id": "modalEditJurusan"
+            },
+            {
+                "line": 114,
+                "id": "modalHapusJurusan"
+            }
+        ],
+        "total_lines": 151
+    },
+    "admin\/master\/mapel.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Mata Pelajaran & Kelompok Mapel"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 103,
+                "id": "modalTambahKelompok"
+            },
+            {
+                "line": 135,
+                "id": "modalTambahMapel"
+            },
+            {
+                "line": 186,
+                "id": "modalEditMapel"
+            },
+            {
+                "line": 235,
+                "id": "modalHapusMapel"
+            }
+        ],
+        "total_lines": 274
+    },
+    "admin\/master\/komponen_nilai.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Komponen Nilai & Bobot"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 83,
+                "id": "modalTambahKomponen"
+            },
+            {
+                "line": 128,
+                "id": "modalEditKomponen"
+            },
+            {
+                "line": 166,
+                "id": "modalHapusKomponen"
+            }
+        ],
+        "total_lines": 204
+    },
+    "admin\/master\/kriteria_penilaian.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "KKM & Interval Predikat"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 73,
+                "id": "modalTambahKriteria"
+            },
+            {
+                "line": 105,
+                "id": "modalEditKriteria"
+            },
+            {
+                "line": 137,
+                "id": "modalHapusKriteria"
+            },
+            {
+                "line": 161,
+                "id": "modalTambahInterval"
+            }
+        ],
+        "total_lines": 232
+    },
+    "admin\/master\/sikap.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Master Penilaian Non-Akademik"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 67,
+                "id": "modalTambahSikap"
+            },
+            {
+                "line": 99,
+                "id": "modalEditSikap"
+            },
+            {
+                "line": 131,
+                "id": "modalHapusSikap"
+            }
+        ],
+        "total_lines": 168
+    },
+    "admin\/master\/ekskul.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Master Ekstrakurikuler"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 65,
+                "id": "modalTambahEkskul"
+            },
+            {
+                "line": 93,
+                "id": "modalEditEkskul"
+            },
+            {
+                "line": 121,
+                "id": "modalHapusEkskul"
+            }
+        ],
+        "total_lines": 157
+    },
+    "admin\/master\/prestasi.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Master Jenis Prestasi"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 65,
+                "id": "modalTambahPrestasi"
+            },
+            {
+                "line": 93,
+                "id": "modalEditPrestasi"
+            },
+            {
+                "line": 121,
+                "id": "modalHapusPrestasi"
+            }
+        ],
+        "total_lines": 157
+    },
+    "admin\/kelas\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Kelola Kelas (Rombel)"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 95
+    },
+    "admin\/kelas\/form_buka_kelas.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 75
+    },
+    "admin\/kelas\/detail.php": {
+        "headings": [
+            {
+                "line": 10,
+                "text": "Rombel:"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 101,
+                "id": "modalTambahSiswaKelas"
+            },
+            {
+                "line": 156,
+                "id": "modalKeluarkanSiswa"
+            }
+        ],
+        "total_lines": 188
+    },
+    "admin\/penugasan\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Penugasan Guru Mengajar"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 95,
+                "id": "modalTambahPenugasan"
+            },
+            {
+                "line": 161,
+                "id": "modalHapusPenugasan"
+            }
+        ],
+        "total_lines": 194
+    },
+    "admin\/pengguna\/guru_index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Data Guru & Tenaga Pendidik"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 90,
+                "id": "modalNonaktifkanGuru"
+            }
+        ],
+        "total_lines": 123
+    },
+    "admin\/pengguna\/guru_form.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 71
+    },
+    "admin\/pengguna\/siswa_index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Data Induk Siswa"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 114,
+                "id": "modalNonaktifkanSiswa"
+            },
+            {
+                "line": 139,
+                "id": "modalMutasiSiswa"
+            }
+        ],
+        "total_lines": 197
+    },
+    "admin\/pengguna\/siswa_form.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 147
+    },
+    "admin\/pengguna\/siswa_detail.php": {
+        "headings": [
+            {
+                "line": 19,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 280,
+                "id": "modalTambahOrtu"
+            },
+            {
+                "line": 329,
+                "id": "modalEditOrtu"
+            },
+            {
+                "line": 378,
+                "id": "modalUploadDokumen"
+            },
+            {
+                "line": 420,
+                "id": "modalPreviewDokumen"
+            }
+        ],
+        "total_lines": 467
+    },
+    "admin\/pengguna\/ortu_index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Data Orang Tua & Wali Siswa"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 69
+    },
+    "admin\/pengguna\/staff_tu.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Akun Staff Tata Usaha (TU)"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 60,
+                "id": "modalTambahStaff"
+            },
+            {
+                "line": 112,
+                "id": "modalEditStaff"
+            },
+            {
+                "line": 158,
+                "id": "modalNonaktifkanStaff"
+            }
+        ],
+        "total_lines": 198
+    },
+    "admin\/raport\/buka_kunci.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Otorisasi Buka Kunci Raport Final"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 110,
+                "id": "modalApproveUnlock<?= $req["
+            },
+            {
+                "line": 148,
+                "id": "modalRejectUnlock<?= $req["
+            },
+            {
+                "line": 252,
+                "id": "modalBukaKunciDirect<?= $lr["
+            }
+        ],
+        "total_lines": 372
+    },
+    "admin\/ujian_sekolah\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Modul Ujian Sekolah & Formula Kelulusan (Kelas 12)"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 200,
+                "id": "modalDetailUS<?= $sk["
+            }
+        ],
+        "total_lines": 277
+    },
+    "admin\/pengguna\/transkrip_cetak.php": {
+        "headings": [
+            {
+                "line": 10,
+                "text": "Transkrip Nilai Kumulatif 6 Semester"
+            },
+            {
+                "line": 28,
+                "text": "SMA IT Fithrah Insani"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 168
+    },
+    "admin\/surat\/kategori.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Kategori Persuratan"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 56,
+                "id": "modalTambahKategoriSurat"
+            },
+            {
+                "line": 92,
+                "id": "modalEditKategoriSurat"
+            },
+            {
+                "line": 128,
+                "id": "modalHapusKategoriSurat"
+            }
+        ],
+        "total_lines": 165
+    },
+    "admin\/surat\/format_nomor.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Format Penomoran Surat Otomatis"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 62,
+                "id": "modalTambahFormatSurat"
+            },
+            {
+                "line": 115,
+                "id": "modalEditFormatSurat"
+            },
+            {
+                "line": 168,
+                "id": "modalHapusFormatSurat"
+            }
+        ],
+        "total_lines": 222
+    },
+    "admin\/arsip\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Modul Arsip & Penelusuran Histori"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 333
+    },
+    "admin\/audit\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Pusat Log Audit &amp; Jejak Rekam Sistem"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 162
+    },
+    "guru\/dashboard.php": {
+        "headings": [
+            {
+                "line": 28,
+                "text": ""
+            },
+            {
+                "line": 41,
+                "text": ""
+            },
+            {
+                "line": 54,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 154
+    },
+    "guru\/mapel.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Mata Pelajaran Saya"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 50
+    },
+    "guru\/nilai\/input.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [
+            {
+                "line": 226,
+                "id": "modalImportExcel"
+            }
+        ],
+        "total_lines": 386
+    },
+    "guru\/tugas\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Tugas Harian & Ulangan Harian"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 185,
+                "id": "modalBuatTugas"
+            },
+            {
+                "line": 229,
+                "id": "modalHapusTugas"
+            }
+        ],
+        "total_lines": 268
+    },
+    "guru\/tugas\/nilai.php": {
+        "headings": [
+            {
+                "line": 76,
+                "text": ""
+            },
+            {
+                "line": 85,
+                "text": ""
+            },
+            {
+                "line": 94,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 256
+    },
+    "guru\/presensi\/index.php": {
+        "headings": [
+            {
+                "line": 21,
+                "text": "Presensi Harian & Jurnal Mengajar (KBM)"
+            },
+            {
+                "line": 70,
+                "text": ""
+            },
+            {
+                "line": 91,
+                "text": "%"
+            },
+            {
+                "line": 131,
+                "text": "100%"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 395,
+                "id": "modalTambahPertemuan"
+            },
+            {
+                "line": 401,
+                "id": "modalTambahPertemuanLabel"
+            }
+        ],
+        "total_lines": 449
+    },
+    "guru\/presensi\/input.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 212
+    },
+    "guru\/presensi\/cetak.php": {
+        "headings": [
+            {
+                "line": 94,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 252
+    },
+    "guru\/analitik\/index.php": {
+        "headings": [
+            {
+                "line": 27,
+                "text": ""
+            },
+            {
+                "line": 35,
+                "text": ""
+            },
+            {
+                "line": 43,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 145
+    },
+    "guru\/perwalian\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Kelas Perwalian: XI-MIPA-1"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 358
+    },
+    "guru\/leger\/index.php": {
+        "headings": [
+            {
+                "line": 64,
+                "text": "MATRIKS NILAI KELAS (BUKU KUMPULAN NILAI \/ LEGER)"
+            },
+            {
+                "line": 109,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 350
+    },
+    "guru\/kenaikan\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Keputusan Kenaikan Kelas &amp; Sidang Pleno"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 340
+    },
+    "guru\/raport\/generate.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Generate Raport Digital Semester Ganjil"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 167
+    },
+    "guru\/raport\/tinjau.php": {
+        "headings": [
+            {
+                "line": 57,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 413,
+                "id": "modalFinalisasiRaport"
+            },
+            {
+                "line": 459,
+                "id": "modalPengesahanKepsek"
+            },
+            {
+                "line": 491,
+                "id": "modalTolakKepsek"
+            }
+        ],
+        "total_lines": 520
+    },
+    "guru\/raport\/buka_kunci.php": {
+        "headings": [
+            {
+                "line": 10,
+                "text": "Status Raport Final Terkunci"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 107,
+                "id": "modalBukaKunciGuru"
+            }
+        ],
+        "total_lines": 155
+    },
+    "tu\/dashboard.php": {
+        "headings": [
+            {
+                "line": 8,
+                "text": "Dashboard Tata Usaha"
+            },
+            {
+                "line": 18,
+                "text": ""
+            },
+            {
+                "line": 31,
+                "text": ""
+            },
+            {
+                "line": 44,
+                "text": ""
+            },
+            {
+                "line": 57,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 112
+    },
+    "tu\/surat_masuk\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Daftar Surat Masuk"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 104
+    },
+    "tu\/surat_masuk\/form.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 103
+    },
+    "tu\/surat_masuk\/detail.php": {
+        "headings": [
+            {
+                "line": 10,
+                "text": "Agenda:"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 122,
+                "id": "modalTambahDisposisi"
+            },
+            {
+                "line": 166,
+                "id": "modalPratinjauSurat"
+            }
+        ],
+        "total_lines": 192
+    },
+    "tu\/surat_keluar\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Daftar Surat Keluar"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 157
+    },
+    "tu\/surat_keluar\/form.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 120
+    },
+    "tu\/surat_keluar\/detail.php": {
+        "headings": [],
+        "forms": [],
+        "modals": [],
+        "total_lines": 204
+    },
+    "tu\/arsip\/index.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Arsip Persuratan Sekolah"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 127
+    },
+    "tu\/buku_agenda.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Cetak Buku Agenda Surat"
+            },
+            {
+                "line": 50,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 108
+    },
+    "siswa\/beranda.php": {
+        "headings": [
+            {
+                "line": 11,
+                "text": "Assalamu'alaikum, !"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 103
+    },
+    "siswa\/profil.php": {
+        "headings": [
+            {
+                "line": 11,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 136
+    },
+    "siswa\/nilai.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Rincian Capaian Nilai Akademik"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 98
+    },
+    "siswa\/status.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Status Akademik Siswa"
+            },
+            {
+                "line": 32,
+                "text": ""
+            },
+            {
+                "line": 55,
+                "text": "DINYATAKAN"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 94,
+                "id": "modalUnduhSKL"
+            }
+        ],
+        "total_lines": 113
+    },
+    "siswa\/raport_list.php": {
+        "headings": [
+            {
+                "line": 7,
+                "text": "Riwayat Raport Digital"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 57
+    },
+    "siswa\/raport_preview.php": {
+        "headings": [
+            {
+                "line": 10,
+                "text": "Pratinjau Raport Digital Siswa"
+            },
+            {
+                "line": 52,
+                "text": ""
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 320
+    },
+    "siswa\/transkrip.php": {
+        "headings": [
+            {
+                "line": 10,
+                "text": "Transkrip Nilai Kumulatif 6 Semester"
+            },
+            {
+                "line": 29,
+                "text": "SMA IT Fithrah Insani"
+            },
+            {
+                "line": 126,
+                "text": "\/ 100"
+            },
+            {
+                "line": 130,
+                "text": "JP"
+            }
+        ],
+        "forms": [],
+        "modals": [],
+        "total_lines": 189
+    },
+    "auth\/login.php": {
+        "headings": [
+            {
+                "line": 58,
+                "text": "SIAKAD"
+            },
+            {
+                "line": 65,
+                "text": "Sistem Informasi Akademik"
+            },
+            {
+                "line": 91,
+                "text": "Masuk ke Akun"
+            }
+        ],
+        "forms": [],
+        "modals": [
+            {
+                "line": 179,
+                "id": "modalLupaPassword"
+            }
+        ],
+        "total_lines": 222
+    }
+}
