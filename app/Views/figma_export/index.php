@@ -40,6 +40,13 @@
     .search-box {
       border-radius: 20px;
     }
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 1200px;
+    }
   </style>
 </head>
 <body class="py-4">

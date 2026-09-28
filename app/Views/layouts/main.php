@@ -520,6 +520,176 @@
         box-shadow: none !important;
       }
     }
+
+    /* ==========================================================================
+       Desktop 1280px Viewport Optimization Suite (Figma 1280px Canvas Export)
+       ========================================================================== */
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    .app-wrapper {
+      max-width: 100%;
+      overflow-x: clip;
+    }
+
+    @media (min-width: 1100px) and (max-width: 1366px), (width: 1280px) {
+      /* 1. Proportional Sidebar & Content Layout */
+      .app-sidebar {
+        width: 240px !important;
+      }
+      .app-main, .app-header, .app-footer {
+        margin-left: 240px !important;
+      }
+      .app-content {
+        padding-top: 0.85rem !important;
+        padding-bottom: 2rem !important;
+      }
+      .app-content > .container-fluid {
+        padding-left: 1.25rem !important;
+        padding-right: 1.25rem !important;
+        max-width: 100% !important;
+      }
+
+      /* 2. Responsive Card Headers & Toolbars */
+      .card-header {
+        display: flex;
+        flex-wrap: wrap !important;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+      .card-header .btn-toolbar,
+      .card-header .d-flex,
+      .card-header .btn-group {
+        flex-wrap: wrap;
+        gap: 0.35rem;
+      }
+
+      /* 3. Optimal Table Typography & Cell Density */
+      .table {
+        font-size: 0.815rem;
+      }
+      .table th, .table td {
+        padding: 0.48rem 0.58rem;
+        vertical-align: middle;
+        overflow-wrap: break-word;
+      }
+      .table-responsive {
+        border-radius: inherit;
+        -webkit-overflow-scrolling: touch;
+      }
+      
+      /* Compact Buttons in Table Cells */
+      .table .btn-sm,
+      .table .btn-group .btn {
+        padding: 0.2rem 0.45rem !important;
+        font-size: 0.74rem !important;
+        line-height: 1.25 !important;
+      }
+
+      /* Compact Badges in Tables */
+      .table .badge {
+        padding: 0.25rem 0.5rem !important;
+        font-size: 0.72rem !important;
+      }
+
+      /* Compact Inputs in Table Rows */
+      .table .form-control-sm,
+      .table .form-select-sm {
+        font-size: 0.78rem;
+        padding: 0.22rem 0.4rem;
+        min-height: 28px;
+      }
+
+      /* Responsive Overrides for Wide Column min-widths */
+      th[style*="min-width: 300px"], td[style*="min-width: 300px"] { min-width: 210px !important; }
+      th[style*="min-width: 260px"], td[style*="min-width: 260px"] { min-width: 180px !important; }
+      th[style*="min-width: 240px"], td[style*="min-width: 240px"] { min-width: 170px !important; }
+      th[style*="min-width: 220px"], td[style*="min-width: 220px"] { min-width: 160px !important; }
+      th[style*="min-width: 200px"], td[style*="min-width: 200px"] { min-width: 150px !important; }
+      th[style*="min-width: 180px"], td[style*="min-width: 180px"] { min-width: 135px !important; }
+      th[style*="min-width: 140px"], td[style*="min-width: 140px"] { min-width: 105px !important; }
+
+      /* 4. Stat & Metric Cards (Dashboard Grid) */
+      .small-box .inner h3 {
+        font-size: 1.45rem !important;
+      }
+      .small-box .inner p {
+        font-size: 0.8rem !important;
+      }
+      .small-box .icon, .small-box .small-box-icon {
+        font-size: 2.2rem !important;
+      }
+      .stat-summary-leger .fs-4 {
+        font-size: 1.35rem !important;
+      }
+
+      /* 5. Modals Optimization (No cutoffs, perfectly centered) */
+      .modal-xl {
+        max-width: 1040px !important;
+        width: 95% !important;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .modal-lg {
+        max-width: 760px !important;
+        width: 90% !important;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .modal-dialog:not(.modal-lg):not(.modal-xl) {
+        max-width: 500px !important;
+        width: 90% !important;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .modal-dialog {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      /* 6. Wizard Stepper Compact Flow */
+      .wizard-stepper {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.35rem;
+        overflow-x: auto;
+        padding-bottom: 0.35rem;
+      }
+      .wizard-stepper .step-item {
+        flex: 1 1 0;
+        min-width: 100px;
+        font-size: 0.72rem;
+      }
+
+      /* 7. Matriks Leger Nilai 1280px Fit */
+      .table-leger {
+        font-size: 0.72rem !important;
+        table-layout: auto !important;
+      }
+      .table-leger th, .table-leger td {
+        padding: 4px 3px !important;
+      }
+      .table-leger .sticky-col-1 {
+        width: 36px !important;
+      }
+      .table-leger .sticky-col-2 {
+        min-width: 155px !important;
+        max-width: 175px !important;
+        left: 36px !important;
+      }
+      .table-leger .sticky-col-2 .text-truncate {
+        max-width: 165px !important;
+      }
+
+      /* 8. Textarea in Grading Tables */
+      .table textarea {
+        font-size: 0.78rem !important;
+        padding: 0.25rem 0.4rem !important;
+        min-height: 48px !important;
+      }
+    }
   </style>
 </head>
 <body class="layout-fixed sidebar-expand-lg bg-body-tertiary">

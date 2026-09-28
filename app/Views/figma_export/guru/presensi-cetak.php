@@ -11,9 +11,12 @@
       font-family: 'Times New Roman', Times, serif;
       background-color: #f8f9fa;
       color: #000;
+      overflow-x: hidden;
     }
     .paper-container {
       width: 297mm; /* Landscape A4 */
+      max-width: calc(100% - 30px);
+      box-sizing: border-box;
       min-height: 210mm;
       margin: 20px auto;
       background: #fff;
