@@ -56,6 +56,7 @@
     .input-error-custom {
       border: 1.5px solid #b02a37 !important;
       background-color: #fff8f8;
+      background-image: none !important;
       color: #212529;
     }
     .input-error-custom:focus {
@@ -131,15 +132,14 @@
               </div>
 
               <div class="mb-3">
-                <div class="d-flex justify-content-between align-items-center">
-                  <label for="password" class="form-label small fw-semibold text-danger-accessible mb-0">
-                    Password
-                  </label>
-                  <a href="#" class="text-decoration-none small text-primary fw-medium" data-bs-toggle="modal" data-bs-target="#modalLupaPassword">Lupa Password?</a>
-                </div>
-                <div class="input-group mt-1 has-validation">
-                  <input type="password" class="form-control is-invalid input-error-custom" id="password" name="password" value="rahasia123" placeholder="Masukkan password" aria-invalid="true" aria-describedby="password-feedback" required>
-                  <button class="btn btn-outline-danger" type="button" id="btnTogglePassword" aria-label="Tampilkan atau sembunyikan kata sandi"><i class="bi bi-eye" id="eyeIcon"></i></button>
+                <label for="password" class="form-label small fw-semibold text-danger-accessible">
+                  Password
+                </label>
+                <div class="position-relative">
+                  <input type="password" class="form-control is-invalid input-error-custom pe-5" id="password" name="password" value="rahasia123" placeholder="Masukkan password" aria-invalid="true" aria-describedby="password-feedback" required>
+                  <button class="btn border-0 text-danger position-absolute end-0 top-50 translate-middle-y me-1 p-0 d-flex align-items-center justify-content-center shadow-none" type="button" id="btnTogglePassword" aria-label="Tampilkan atau sembunyikan kata sandi" style="width: 38px; height: 38px; z-index: 5;">
+                    <i class="bi bi-eye" id="eyeIcon"></i>
+                  </button>
                 </div>
                 <div id="password-feedback" class="invalid-feedback d-block small text-danger-accessible fw-medium">
                   Kredensial login tidak valid. Silakan coba lagi atau gunakan bantuan reset kata sandi.
@@ -153,6 +153,7 @@
                     Ingat saya di perangkat ini
                   </label>
                 </div>
+                <a href="#" class="text-decoration-none small text-primary fw-medium" data-bs-toggle="modal" data-bs-target="#modalLupaPassword">Lupa Password?</a>
               </div>
 
               <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold d-flex align-items-center justify-content-center">

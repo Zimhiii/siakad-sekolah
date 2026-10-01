@@ -109,13 +109,12 @@
               </div>
 
               <div class="mb-3">
-                <div class="d-flex justify-content-between align-items-center">
-                  <label for="password" class="form-label small fw-semibold text-secondary-accessible mb-0">Password</label>
-                  <a href="#" class="text-decoration-none small text-primary fw-medium" data-bs-toggle="modal" data-bs-target="#modalLupaPassword">Lupa Password?</a>
-                </div>
-                <div class="input-group mt-1">
-                  <input type="password" class="form-control" id="password" name="password" placeholder="Masukkan kata sandi akun" required>
-                  <button class="btn btn-outline-secondary" type="button" id="btnTogglePassword" aria-label="Tampilkan atau sembunyikan kata sandi"><i class="bi bi-eye" id="eyeIcon"></i></button>
+                <label for="password" class="form-label small fw-semibold text-secondary-accessible">Password</label>
+                <div class="position-relative">
+                  <input type="password" class="form-control pe-5" id="password" name="password" placeholder="Masukkan kata sandi akun" required>
+                  <button class="btn border-0 text-secondary position-absolute end-0 top-50 translate-middle-y me-1 p-0 d-flex align-items-center justify-content-center shadow-none" type="button" id="btnTogglePassword" aria-label="Tampilkan atau sembunyikan kata sandi" style="width: 38px; height: 38px; z-index: 5;">
+                    <i class="bi bi-eye" id="eyeIcon"></i>
+                  </button>
                 </div>
               </div>
 
@@ -126,6 +125,7 @@
                     Ingat saya di perangkat ini
                   </label>
                 </div>
+                <a href="#" class="text-decoration-none small text-primary fw-medium" data-bs-toggle="modal" data-bs-target="#modalLupaPassword">Lupa Password?</a>
               </div>
 
               <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold d-flex align-items-center justify-content-center">

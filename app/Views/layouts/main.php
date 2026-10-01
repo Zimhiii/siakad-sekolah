@@ -534,12 +534,16 @@
     }
 
     @media (min-width: 1100px) and (max-width: 1366px), (width: 1280px) {
-      /* 1. Proportional Sidebar & Content Layout */
+      /* 1. Proportional Sidebar & Content Layout (AdminLTE 4 CSS Grid compatible) */
+      :root {
+        --lte-sidebar-width: 240px;
+      }
       .app-sidebar {
-        width: 240px !important;
+        min-width: 240px !important;
+        max-width: 240px !important;
       }
       .app-main, .app-header, .app-footer {
-        margin-left: 240px !important;
+        margin-left: 0 !important;
       }
       .app-content {
         padding-top: 0.85rem !important;

@@ -110,11 +110,13 @@
               </div>
 
               <div class="mb-3">
-                <div class="d-flex justify-content-between align-items-center">
-                  <label for="password" class="form-label small fw-semibold text-secondary-accessible mb-0">Password</label>
-                  <span class="small text-primary fw-semibold text-decoration-underline">Lupa Password?</span>
+                <label for="password" class="form-label small fw-semibold text-secondary-accessible">Password</label>
+                <div class="position-relative">
+                  <input type="password" class="form-control pe-5" id="password" name="password" placeholder="Masukkan kata sandi akun" readonly>
+                  <button class="btn border-0 text-secondary position-absolute end-0 top-50 translate-middle-y me-1 p-0 d-flex align-items-center justify-content-center shadow-none" type="button" tabindex="-1" disabled style="width: 38px; height: 38px; z-index: 5;">
+                    <i class="bi bi-eye" id="eyeIcon"></i>
+                  </button>
                 </div>
-                <input type="password" class="form-control mt-1" id="password" name="password" placeholder="Masukkan kata sandi akun" readonly>
               </div>
 
               <div class="d-flex justify-content-between align-items-center mb-4">
@@ -124,6 +126,7 @@
                     Ingat saya di perangkat ini
                   </label>
                 </div>
+                <span class="small text-primary fw-semibold text-decoration-underline">Lupa Password?</span>
               </div>
 
               <button type="button" class="btn btn-primary w-100 py-2 fw-semibold d-flex align-items-center justify-content-center" disabled>
